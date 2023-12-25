@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS  Added  -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Responsive Navigation Bar - Bondstein</title>
+  </head>
+  <body>
+    <!-- HEAD -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__all">
+          <div class="nav-logo">
+            <img
+              src="https://bondstein.com/wp-content/uploads/2021/03/cropped-Logo-Bondstein-05-4.jpg"
+              alt="Bondstein Logo"
+            />
+            <p>bondstein</p>
+          </div>
+
+          <div class="navbar-toggle" id="nav-toggle">
+            <i class="ri-menu-line nav_burger"></i>
+            <i class="ri-close-line nav_close"></i>
+          </div>
+        </div>
+
+        <!-- NAV  -->
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li><a href="#" class="nav-link">Home</a></li>
+
+            <li><a href="#" class="nav-link">Company</a></li>
+
+            <!-- DROPDOWN  -->
+            <li class="dropdown-item">
+              <div class="nav-link">
+                About Us <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown_link">
+                    <i class="ri-pie-chart-2-fill"></i> Overview
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="dropdown_link">
+                    <i class="ri-remixicon-line"></i>Details
+                  </a>
+                </li>
+
+                <li class="dropdown-branchItem">
+                  <div class="dropdown_link">
+                    <i class="ri-folder-chart-2-fill"></i> Reports
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="#" class="nav-link">Products</a></li>
+
+            <li><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- JS  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
